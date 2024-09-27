@@ -57,6 +57,7 @@ section {
     margin: 20px 0;
 }
 
+/* Form and Iframe Styles */
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -80,9 +81,28 @@ button:hover {
     background-color: #0056b3;
 }
 
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    border: none;
+    margin-top: 20px;
+}
+
 footer {
     background-color: #007BFF;
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2em;
+    }
+
+    iframe {
+        height: 500px;
+    }
 }
