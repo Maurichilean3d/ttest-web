@@ -55,8 +55,24 @@
             <button type="submit">Enviar</button>
         </form>
 
-        <!-- Embebido del chat en un iframe -->
-        <h2>Chat de Asesoría en Vivo</h2>
-        <iframe 
-            src="https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=238558da-3959-49f5-96d6-3798351987f1" 
-            width="
+        <!-- Embebido del chatbot de Botpress -->
+        <script>
+          window.botpressWebChat.init({
+            botId: "238558da-3959-49f5-96d6-3798351987f1",
+            hostUrl: "https://cdn.botpress.cloud/webchat/v2",
+            botName: "Asesor de Emprendimiento",
+            hideWidget: false,
+            showPoweredBy: false,
+          });
+        </script>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Asesor de Emprendimiento</p>
+    </footer>
+
+    <!-- Script para cargar el chat de Botpress -->
+    <script src="https://cdn.botpress.cloud/webchat/v2/embed.js"></script>
+
+</body>
+</html>
