@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+#hero {
+    background-color: #0056b3;
+    color: white;
+    padding: 100px 20px;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+}
+
+#hero .btn {
+    background-color: white;
+    color: #0056b3;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#servicios, #acerca, #contacto {
+    background-color: white;
+    margin: 20px 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
