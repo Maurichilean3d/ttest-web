@@ -55,7 +55,7 @@
             <button type="submit">Enviar</button>
         </form>
 
-        <!-- Aquí estaba el iframe, ahora insertamos el script -->
+        <!-- Espacio para el chatbot -->
         <h2>Chat de Asesoría en Vivo</h2>
     </section>
 
@@ -63,19 +63,9 @@
         <p>&copy; 2024 Asesor de Emprendimiento</p>
     </footer>
 
-    <!-- Script de Botpress para embeber el chatbot -->
-    <script>
-      window.botpressWebChat.init({
-        botId: "238558da-3959-49f5-96d6-3798351987f1",  // ID del bot
-        hostUrl: "https://cdn.botpress.cloud/webchat/v2",  // Asegúrate de que la URL sea correcta
-        botName: "Asesor de Emprendimiento",  // Nombre del bot
-        hideWidget: false,  // El widget no está oculto
-        showPoweredBy: false  // No mostrar "Powered by Botpress"
-      });
-    </script>
-
-    <!-- Cargar el script de Botpress -->
-    <script src="https://cdn.botpress.cloud/webchat/v2/embed.js"></script>
+    <!-- Scripts para embeber el chatbot de Botpress -->
+    <script src="https://cdn.botpress.cloud/webchat/v2.1/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/40c67911-ea5e-4621-9598-2761f22fdca7/webchat/v2.1/config.js"></script>
 
 </body>
 </html>
